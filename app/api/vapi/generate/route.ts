@@ -1,6 +1,6 @@
 import { db } from "@/firebase/admin";
 import { getRandomInterviewCover } from "@/lib/utils";
-import { generateText } from "@ai-sdk/google"; 
+import { generateText } from "ai";
 import { google } from "@ai-sdk/google";
 
 
